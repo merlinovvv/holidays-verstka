@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Holiday's</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/background.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/form-holiday.css">
+    <link rel="stylesheet" href="./css/selector.css">
+</head>
+
+<body>
+    <div class="background-animation">
+        <div id="ball-one"></div>
+        <div id="ball-two"></div>
+        <div id="ball-three"></div>
+    </div>
+    <header>
+        <div class="container">
+            <div class="header">
+                <h1 class='logo-header'>Holiday's</h1>
+                <nav>
+                    <ul>
+                        <li class='link-container'><a class='link' href="#">Menu 1</a></li>
+                        <li class='link-container'><a class='link' href="#">Menu 2</a></li>
+                        <li class='link-container'><a class='link' href="#">Menu 3</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+    </header>
+    <main>
+        <div class="container">
+            <div class="main">
+                <form class="form-holiday">
+                    <select id="day" name="day">
+                        <option value="">Day</option>
+                        <option value="1">1</option>
+                        <!-- ... -->
+                        <option value="31">31</option>
+                    </select>
+                    <select id="month" name="month">
+                        <option value="">Month</option>
+                        <option value="1">January</option>
+                        <!-- ... -->
+                        <option value="12">December</option>
+                    </select>
+                    <select id="year" name="year">
+                        <option value="">Year</option>
+                        <option value="2021">2021</option>
+                        <option value="2022">2022</option>
+                        <!-- ... -->
+                        <option value="2030">2030</option>
+                    </select>
+                    <select id="country" name="country">
+                        <option value="">Country</option>
+                        <option value="UA">Ukraine</option>
+                        <option value="US">USA</option>
+                        <!-- ... -->
+                        <option value="UK">United Kingdom</option>
+                    </select>
+
+                    <button class="form-btn" type="submit">Send</button>
+                </form>
+                <div class="main-text">
+                    <h1 class="title">Find your holiday today</h1>
+                    <p class="sub-title">It's definitely possible for us</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./js/script.js"></script>
+
+</body>
+
+</html>
